@@ -1,0 +1,654 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{daf156c4-23a9-4abc-94d3-bf6df3bae02a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\01. Engine">
+      <UniqueIdentifier>{2cafff3c-2791-41a8-9fd9-dbfd079ba818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager">
+      <UniqueIdentifier>{04724449-f3c4-46c5-bb96-2daee4e1de7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\01. SceneMgr">
+      <UniqueIdentifier>{494eb6e9-072f-4ee5-9c78-6a95d3c75e00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\02. ResMgr">
+      <UniqueIdentifier>{38af4a57-65e2-47d7-b455-53cc1e2ee682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\03. PathMgr">
+      <UniqueIdentifier>{17551710-bf1d-46c2-bea0-745087f8b5c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\04. TimeMgr">
+      <UniqueIdentifier>{ee515dfd-5692-4c61-814a-7ddd9ffc531f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\05. KeyMgr">
+      <UniqueIdentifier>{345beade-bf46-4392-a3a7-f9ba4e242e87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\06. SoundMgr">
+      <UniqueIdentifier>{e6c984f8-e9bc-4ba1-aa21-e324ff52d448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\07. CollisionMgr">
+      <UniqueIdentifier>{5bac87c1-d572-4a0b-9fe7-4b192a6c65fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\00. Header">
+      <UniqueIdentifier>{7e620526-7a9c-4942-82c6-f28c30704b21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object">
+      <UniqueIdentifier>{8578e5a7-6a7e-4026-aeb6-fc0103ba30a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Scene">
+      <UniqueIdentifier>{1ed39943-665c-4ca9-8079-41a17b109845}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Scene\01. LOGO">
+      <UniqueIdentifier>{45689004-bede-494a-95dd-38c16263969c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Scene\02. START">
+      <UniqueIdentifier>{7b2af374-1768-48d9-a1cf-1e38ac8abe1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\Monster">
+      <UniqueIdentifier>{c9a59278-e95d-4645-853b-58ef8c266aaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\Missile">
+      <UniqueIdentifier>{aea0ffd9-af78-4339-a1b5-9e20346d9c56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\06. Resource">
+      <UniqueIdentifier>{1db20bdb-6ad6-46b8-a329-18163be63e82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\06. Resource\Image">
+      <UniqueIdentifier>{cdbe1b7a-1556-468e-a4ed-e1d7a618eb8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\06. Resource\Sound">
+      <UniqueIdentifier>{bd513a44-9928-4ee5-9007-fde0ccfe4a25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Component">
+      <UniqueIdentifier>{d81ee836-0d20-4719-9e8b-6a3535853607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Component\Collider">
+      <UniqueIdentifier>{2e6e50e6-b3a8-4abd-bf89-50452e10d356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Component\Animator">
+      <UniqueIdentifier>{f9982560-6187-482f-a84a-1f9f5a11ed63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Component\AI">
+      <UniqueIdentifier>{45f35ff2-cc56-43ee-8a92-a621a9abf036}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="default">
+      <UniqueIdentifier>{ffa5466b-b944-420e-b599-f315ba958ba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\08. CameraMgr">
+      <UniqueIdentifier>{00692308-a1ca-4679-861f-5ceb85ada50b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\09. EventMgr">
+      <UniqueIdentifier>{beab8215-be16-4252-8da0-5cea73bbd476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\Monster\MiniMonster">
+      <UniqueIdentifier>{3310b4f6-c9a3-4c25-ad63-e63735896507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Component\Animator\Animation">
+      <UniqueIdentifier>{fbff9e20-c369-481e-9fa7-82627824af8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Component\RigidBody">
+      <UniqueIdentifier>{09d08e72-0162-44e8-94b8-7bab5427b5f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Scene\00. TOOL">
+      <UniqueIdentifier>{40b494de-f36c-436f-87fd-cc0b1f15225c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\CTile">
+      <UniqueIdentifier>{c85eb028-d43c-4700-88dd-55afdc5db3e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\UI">
+      <UniqueIdentifier>{67fc3893-e7bf-49e5-bfa2-ba3f263522e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\UI\Button">
+      <UniqueIdentifier>{76b3040b-a41b-4d9a-8390-2c72ab396696}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\UI\Panel">
+      <UniqueIdentifier>{b84a05b6-f400-452d-a358-2c47f188ae50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\10. UIMgr">
+      <UniqueIdentifier>{e9533422-181d-4636-b86a-6c2e0aa2d11d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\Ground">
+      <UniqueIdentifier>{c61f1654-55d8-4cdf-a7b5-d529c2bfd13a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\Missile\GuidedMissile">
+      <UniqueIdentifier>{4da8f295-dd6e-45bf-9657-2195806c0b9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\Force">
+      <UniqueIdentifier>{62c64e63-4d97-4385-8018-c7c1790feb09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\07. State">
+      <UniqueIdentifier>{f8434d1a-ba43-4b20-a6d3-17b3263f31fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\07. State\DEAD">
+      <UniqueIdentifier>{9c835e15-01a2-4f14-9718-e7c9f5ab8d1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\07. State\IDLE">
+      <UniqueIdentifier>{6c94acdb-7c6a-4720-8c4e-83124f04dd3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\07. State\TRACE">
+      <UniqueIdentifier>{658b2400-d908-46d4-966e-6f284e58ba7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\UI\CTagButton">
+      <UniqueIdentifier>{59f40001-1498-4c4f-9ad0-c105336b34d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\Missile\IsaacTear">
+      <UniqueIdentifier>{333dc5ce-b205-491a-8dd6-dd96e98871df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\Item">
+      <UniqueIdentifier>{c7c7c1c8-6cdd-42e3-a004-6f283fe90bf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\PlayerOwner">
+      <UniqueIdentifier>{848a4a56-4d5d-4653-89ae-5c32d8870767}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\PlayerOwner\Player">
+      <UniqueIdentifier>{cce5ee9d-00ba-4550-bdaf-0eb67f3a4c46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\PlayerOwner\PlayerHead">
+      <UniqueIdentifier>{8d6ffc77-4f1c-4c01-9f76-063382346022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\Monster\DeadIsaac">
+      <UniqueIdentifier>{fabe9f8a-8cbc-438d-a25c-99107ffab965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\07. State\TRACE\CDeadTrace">
+      <UniqueIdentifier>{a21c2e4b-1232-49ba-9b14-b7dfd08b506a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\CEffect">
+      <UniqueIdentifier>{7d5dc541-a84c-4847-9709-1b66377973f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\MapUI">
+      <UniqueIdentifier>{7d85b745-c3e1-40c3-8175-b084967e8104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\MapUI\CMiniMap">
+      <UniqueIdentifier>{b988a593-5821-491e-b1c8-7e0aded9f7c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\MapUI\CItem_UI">
+      <UniqueIdentifier>{afafdf73-d655-44c6-aeda-6ac9f2024feb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\MapUI\CMonster_HPbar">
+      <UniqueIdentifier>{9012451f-a354-427a-905e-10e88f720c97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\MapUI\CHp">
+      <UniqueIdentifier>{e510b253-b6b7-47c6-afaa-4fc5c1a58919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\MapUI\CMain">
+      <UniqueIdentifier>{2ef697a3-d847-46c0-ad1f-350b9cb40d8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Scene\03. STAGE1">
+      <UniqueIdentifier>{7f295f3d-2d90-4af0-9570-b3960a502616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\Item\CProp">
+      <UniqueIdentifier>{369d206b-8c8b-455a-872b-58e1d5b7edf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\Item\CRedMushroom">
+      <UniqueIdentifier>{53237fe4-be9a-46f8-9033-87f21d9121e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\Monster\CAngel">
+      <UniqueIdentifier>{3c8ce5cd-e1c8-4dcd-bd19-743cb779a875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\07. State\TRACE\CAngel">
+      <UniqueIdentifier>{f9523d4c-311e-485d-8c41-8d6839398940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\07. State\TRACE\CDeadTrace\CTaleport">
+      <UniqueIdentifier>{624bd10e-ec52-4e0e-9859-f08301c87704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\07. State\TRACE\CAngel\CTelePortTrance2">
+      <UniqueIdentifier>{770ef33c-6510-4a5c-b52c-13302958173d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\MapUI\CEnding">
+      <UniqueIdentifier>{b6a45933-da39-47d2-a1b5-563c4e029631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\07. State\DEAD\CDeadDEAD">
+      <UniqueIdentifier>{6b0417c2-9563-4ea5-a964-ec5aa888a925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Scene\04. STAGE_END">
+      <UniqueIdentifier>{38caf134-ecec-4f25-92aa-8f3184d3aa98}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>default</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>default</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>default</Filter>
+    </ClInclude>
+    <ClInclude Include="CEngine.h">
+      <Filter>Game\01. Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject.h">
+      <Filter>Game\04. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CEntity.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>Game\00. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="def.h">
+      <Filter>Game\00. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneMgr.h">
+      <Filter>Game\02. Manager\01. SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_Logo.h">
+      <Filter>Game\03. Scene\01. LOGO</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>Game\04. Object\PlayerOwner\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimeMgr.h">
+      <Filter>Game\02. Manager\04. TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CKeyMgr.h">
+      <Filter>Game\02. Manager\05. KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CMissile.h">
+      <Filter>Game\04. Object\Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="CResMgr.h">
+      <Filter>Game\02. Manager\02. ResMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CResource.h">
+      <Filter>Game\06. Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="CImage.h">
+      <Filter>Game\06. Resource\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="CPathMgr.h">
+      <Filter>Game\02. Manager\03. PathMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CComponent.h">
+      <Filter>Game\05. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollider.h">
+      <Filter>Game\05. Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimator.h">
+      <Filter>Game\05. Component\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster.h">
+      <Filter>Game\04. Object\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollisionMgr.h">
+      <Filter>Game\02. Manager\07. CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CCamera.h">
+      <Filter>Game\02. Manager\08. CameraMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CEventMgr.h">
+      <Filter>Game\02. Manager\09. EventMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="func.h">
+      <Filter>Game\00. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene.h">
+      <Filter>Game\03. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="필기.h">
+      <Filter>Game\00. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CMiniMonster.h">
+      <Filter>Game\04. Object\Monster\MiniMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimation.h">
+      <Filter>Game\05. Component\Animator\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="CRigidBody.h">
+      <Filter>Game\05. Component\RigidBody</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_Tool.h">
+      <Filter>Game\03. Scene\00. TOOL</Filter>
+    </ClInclude>
+    <ClInclude Include="CTile.h">
+      <Filter>Game\04. Object\CTile</Filter>
+    </ClInclude>
+    <ClInclude Include="CUI.h">
+      <Filter>Game\04. Object\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CButton.h">
+      <Filter>Game\04. Object\UI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="CPanelUI.h">
+      <Filter>Game\04. Object\UI\Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="CUIMgr.h">
+      <Filter>Game\02. Manager\10. UIMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CGround.h">
+      <Filter>Game\04. Object\Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="CGuidedMissile.h">
+      <Filter>Game\04. Object\Missile\GuidedMissile</Filter>
+    </ClInclude>
+    <ClInclude Include="CForce.h">
+      <Filter>Game\04. Object\Force</Filter>
+    </ClInclude>
+    <ClInclude Include="CSoundMgr.h">
+      <Filter>Game\02. Manager\06. SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CSound.h">
+      <Filter>Game\06. Resource\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="CState.h">
+      <Filter>Game\07. State</Filter>
+    </ClInclude>
+    <ClInclude Include="CIdle.h">
+      <Filter>Game\07. State\IDLE</Filter>
+    </ClInclude>
+    <ClInclude Include="CTrace.h">
+      <Filter>Game\07. State\TRACE</Filter>
+    </ClInclude>
+    <ClInclude Include="CAI.h">
+      <Filter>Game\05. Component\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="CTagButton.h">
+      <Filter>Game\04. Object\UI\CTagButton</Filter>
+    </ClInclude>
+    <ClInclude Include="CIsaacTear.h">
+      <Filter>Game\04. Object\Missile\IsaacTear</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerHead.h">
+      <Filter>Game\04. Object\PlayerOwner\PlayerHead</Filter>
+    </ClInclude>
+    <ClInclude Include="CItem.h">
+      <Filter>Game\04. Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerOwner.h">
+      <Filter>Game\04. Object\PlayerOwner</Filter>
+    </ClInclude>
+    <ClInclude Include="CRedmushroom.h">
+      <Filter>Game\04. Object\Item\CRedMushroom</Filter>
+    </ClInclude>
+    <ClInclude Include="CDeadIsaac.h">
+      <Filter>Game\04. Object\Monster\DeadIsaac</Filter>
+    </ClInclude>
+    <ClInclude Include="CDeadTrace.h">
+      <Filter>Game\07. State\TRACE\CDeadTrace</Filter>
+    </ClInclude>
+    <ClInclude Include="CEffect.h">
+      <Filter>Game\04. Object\CEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="CDeadTrace2.h">
+      <Filter>Game\07. State\TRACE\CDeadTrace</Filter>
+    </ClInclude>
+    <ClInclude Include="CMiniMap.h">
+      <Filter>Game\04. Object\MapUI\CMiniMap</Filter>
+    </ClInclude>
+    <ClInclude Include="CHP.h">
+      <Filter>Game\04. Object\MapUI\CHp</Filter>
+    </ClInclude>
+    <ClInclude Include="CItem_UI.h">
+      <Filter>Game\04. Object\MapUI\CItem_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster_HPbar.h">
+      <Filter>Game\04. Object\MapUI\CMonster_HPbar</Filter>
+    </ClInclude>
+    <ClInclude Include="CMain.h">
+      <Filter>Game\04. Object\MapUI\CMain</Filter>
+    </ClInclude>
+    <ClInclude Include="CProp.h">
+      <Filter>Game\04. Object\Item\CProp</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_Start.h">
+      <Filter>Game\03. Scene\02. START</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_Stage1.h">
+      <Filter>Game\03. Scene\03. STAGE1</Filter>
+    </ClInclude>
+    <ClInclude Include="CAngel.h">
+      <Filter>Game\04. Object\Monster\CAngel</Filter>
+    </ClInclude>
+    <ClInclude Include="CAngelTrance.h">
+      <Filter>Game\07. State\TRACE\CAngel</Filter>
+    </ClInclude>
+    <ClInclude Include="CTeleportTrance.h">
+      <Filter>Game\07. State\TRACE\CDeadTrace\CTaleport</Filter>
+    </ClInclude>
+    <ClInclude Include="CDeadTrace3.h">
+      <Filter>Game\07. State\TRACE\CDeadTrace</Filter>
+    </ClInclude>
+    <ClInclude Include="CTelePortTrance2.h">
+      <Filter>Game\07. State\TRACE\CAngel\CTelePortTrance2</Filter>
+    </ClInclude>
+    <ClInclude Include="CEnding.h">
+      <Filter>Game\04. Object\MapUI\CEnding</Filter>
+    </ClInclude>
+    <ClInclude Include="CDeadDEAD.h">
+      <Filter>Game\07. State\DEAD\CDeadDEAD</Filter>
+    </ClInclude>
+    <ClInclude Include="CStage_End.h">
+      <Filter>Game\03. Scene\04. STAGE_END</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CEngine.cpp">
+      <Filter>Game\01. Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject.cpp">
+      <Filter>Game\04. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CEntity.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneMgr.cpp">
+      <Filter>Game\02. Manager\01. SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene.cpp">
+      <Filter>Game\03. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_Logo.cpp">
+      <Filter>Game\03. Scene\01. LOGO</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>Game\04. Object\PlayerOwner\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CTimeMgr.cpp">
+      <Filter>Game\02. Manager\04. TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CKeyMgr.cpp">
+      <Filter>Game\02. Manager\05. KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CMissile.cpp">
+      <Filter>Game\04. Object\Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="CResMgr.cpp">
+      <Filter>Game\02. Manager\02. ResMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CResource.cpp">
+      <Filter>Game\06. Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="CImage.cpp">
+      <Filter>Game\06. Resource\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="CPathMgr.cpp">
+      <Filter>Game\02. Manager\03. PathMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CComponent.cpp">
+      <Filter>Game\05. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollider.cpp">
+      <Filter>Game\05. Component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimator.cpp">
+      <Filter>Game\05. Component\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster.cpp">
+      <Filter>Game\04. Object\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollisionMgr.cpp">
+      <Filter>Game\02. Manager\07. CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="CCamera.cpp">
+      <Filter>Game\02. Manager\08. CameraMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CEventMgr.cpp">
+      <Filter>Game\02. Manager\09. EventMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="func.cpp">
+      <Filter>Game\00. Header</Filter>
+    </ClCompile>
+    <ClCompile Include="CMiniMonster.cpp">
+      <Filter>Game\04. Object\Monster\MiniMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimation.cpp">
+      <Filter>Game\05. Component\Animator\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="CRigidBody.cpp">
+      <Filter>Game\05. Component\RigidBody</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_Tool.cpp">
+      <Filter>Game\03. Scene\00. TOOL</Filter>
+    </ClCompile>
+    <ClCompile Include="CTile.cpp">
+      <Filter>Game\04. Object\CTile</Filter>
+    </ClCompile>
+    <ClCompile Include="CUI.cpp">
+      <Filter>Game\04. Object\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CButton.cpp">
+      <Filter>Game\04. Object\UI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="CPanelUI.cpp">
+      <Filter>Game\04. Object\UI\Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="CUIMgr.cpp">
+      <Filter>Game\02. Manager\10. UIMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Game\00. Header</Filter>
+    </ClCompile>
+    <ClCompile Include="CGround.cpp">
+      <Filter>Game\04. Object\Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="CGuidedMissile.cpp">
+      <Filter>Game\04. Object\Missile\GuidedMissile</Filter>
+    </ClCompile>
+    <ClCompile Include="CForce.cpp">
+      <Filter>Game\04. Object\Force</Filter>
+    </ClCompile>
+    <ClCompile Include="CSoundMgr.cpp">
+      <Filter>Game\02. Manager\06. SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CSound.cpp">
+      <Filter>Game\06. Resource\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="CState.cpp">
+      <Filter>Game\07. State</Filter>
+    </ClCompile>
+    <ClCompile Include="CTrace.cpp">
+      <Filter>Game\07. State\TRACE</Filter>
+    </ClCompile>
+    <ClCompile Include="CIdle.cpp">
+      <Filter>Game\07. State\IDLE</Filter>
+    </ClCompile>
+    <ClCompile Include="CAI.cpp">
+      <Filter>Game\05. Component\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="CTagButton.cpp">
+      <Filter>Game\04. Object\UI\CTagButton</Filter>
+    </ClCompile>
+    <ClCompile Include="CIsaacTear.cpp">
+      <Filter>Game\04. Object\Missile\IsaacTear</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerHead.cpp">
+      <Filter>Game\04. Object\PlayerOwner\PlayerHead</Filter>
+    </ClCompile>
+    <ClCompile Include="CItem.cpp">
+      <Filter>Game\04. Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerOwner.cpp">
+      <Filter>Game\04. Object\PlayerOwner</Filter>
+    </ClCompile>
+    <ClCompile Include="CRedmushroom.cpp">
+      <Filter>Game\04. Object\Item\CRedMushroom</Filter>
+    </ClCompile>
+    <ClCompile Include="CDeadIsaac.cpp">
+      <Filter>Game\04. Object\Monster\DeadIsaac</Filter>
+    </ClCompile>
+    <ClCompile Include="CDeadTrace.cpp">
+      <Filter>Game\07. State\TRACE\CDeadTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="CEffect.cpp">
+      <Filter>Game\04. Object\CEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="CDeadTrace2.cpp">
+      <Filter>Game\07. State\TRACE\CDeadTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="CMiniMap.cpp">
+      <Filter>Game\04. Object\MapUI\CMiniMap</Filter>
+    </ClCompile>
+    <ClCompile Include="CHP.cpp">
+      <Filter>Game\04. Object\MapUI\CHp</Filter>
+    </ClCompile>
+    <ClCompile Include="CItem_UI.cpp">
+      <Filter>Game\04. Object\MapUI\CItem_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster_HPbar.cpp">
+      <Filter>Game\04. Object\MapUI\CMonster_HPbar</Filter>
+    </ClCompile>
+    <ClCompile Include="CMain.cpp">
+      <Filter>Game\04. Object\MapUI\CMain</Filter>
+    </ClCompile>
+    <ClCompile Include="CProp.cpp">
+      <Filter>Game\04. Object\Item\CProp</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_Start.cpp">
+      <Filter>Game\03. Scene\02. START</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_Stage1.cpp">
+      <Filter>Game\03. Scene\03. STAGE1</Filter>
+    </ClCompile>
+    <ClCompile Include="CAngel.cpp">
+      <Filter>Game\04. Object\Monster\CAngel</Filter>
+    </ClCompile>
+    <ClCompile Include="CAngelTrance.cpp">
+      <Filter>Game\07. State\TRACE\CAngel</Filter>
+    </ClCompile>
+    <ClCompile Include="CTeleportTrance.cpp">
+      <Filter>Game\07. State\TRACE\CDeadTrace\CTaleport</Filter>
+    </ClCompile>
+    <ClCompile Include="CDeadTrace3.cpp">
+      <Filter>Game\07. State\TRACE\CDeadTrace</Filter>
+    </ClCompile>
+    <ClCompile Include="CTelePortTrance2.cpp">
+      <Filter>Game\07. State\TRACE\CAngel\CTelePortTrance2</Filter>
+    </ClCompile>
+    <ClCompile Include="CEnding.cpp">
+      <Filter>Game\04. Object\MapUI\CEnding</Filter>
+    </ClCompile>
+    <ClCompile Include="CDeadDEAD.cpp">
+      <Filter>Game\07. State\DEAD\CDeadDEAD</Filter>
+    </ClCompile>
+    <ClCompile Include="CStage_End.cpp">
+      <Filter>Game\03. Scene\04. STAGE_END</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Client.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
